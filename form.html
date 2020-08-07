@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .container{
+         border:20px solid;
+         width: 60%;
+         height: 100vh;
+         display: flex;
+         flex-direction: column;
+         margin: 0px auto;
+        }
+        .container h1{
+            text-decoration: underline;
+            text-shadow: 1px 1px;
+        }
+        .row{
+            display: flex;
+            justify-content: center;
+            padding: 2px 2px;
+            margin: 7px 20px;
+            background-color: teal;
+           
+        }
+        .row-label{
+            /* background-color: thistle; */
+            width: 40%;
+            padding: 2px 2px;
+            margin: 2px 2px;
+            text-align: right;
+        }
+        .row-input{
+            /* background-color: rgb(77, 6, 77); */
+            width: 60%;
+            padding: 2px 10px;
+            margin: 2px 2px;
+            text-align: left;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Form</h1>
+        <h3>Let us know how we can improve Free Code Camp</h3>
+            <div class="row">
+                <div class="row-label">
+                    <label for="">*Name:</label>
+                </div>
+                <div class="row-input">
+                    <input type="text" name="" placeholder="Enter your name" id="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-label">
+                    <label for="">*Email:</label>
+                </div>
+                <div class="row-input">
+                    <input type="email" name="" placeholder="Enter your email" id="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-label">
+                    <label for="">*Age:</label>
+                </div>
+                <div class="row-input">
+                    <input type="number" name="" placeholder="Enter your age" id="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-label">
+                    <label for="">Which option best describe your role:</label>
+                </div>
+                <div class="row-input">
+                    <select name="" id="">
+                        <option value="">Student</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row-label">
+                    <label for="">*How likely is that you would recommend FCC to a friend?</label>
+                </div>
+                <div class="row-input">
+                   <div><input type="radio" name="choose" placeholder="Enter your email" id=""><label for="">Definitely</label></div> 
+                   <div><input type="radio" name="choose" placeholder="Enter your email" id=""><label for="">May be</label></div> 
+                   <div><input type="radio" name="choose" placeholder="Enter your email" id=""><label for="">Not Sure</label></div> 
+                </div>
+                </div>
+                <div class="row">
+                    <div class="row-label">
+                        <label for="">What do you like most in FCC?</label>
+                    </div>
+                    <div class="row-input">
+                        <select name="" id="">
+                            <option value="">Select an option</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-label">
+                        <label for="">Things that should be improved in future(check all that apply):</label>
+                    </div>
+                    <div class="row-input">
+                      <div>  <input type="checkbox" name="" placeholder="Enter your age" id="">
+                        <label for="">Front End Projects</label>
+                    </div>
+                    <div>  <input type="checkbox" name="" placeholder="Enter your age" id="">
+                        <label for="">Back End Projects</label>
+                    </div>
+                    <div>  <input type="checkbox" name="" placeholder="Enter your age" id="">
+                        <label for="">Data Visualization</label>
+                    </div>
+                </div>
+                </div>
+    </div>
+</body>
+</html>
+    
